@@ -1,0 +1,22 @@
+{
+    "name": "tuxunbot",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "This is a bot for tuxun",
+    "web_accessible_resources": [{
+    "resources": ["inject.js"],
+    "matches": ["https://*.tuxun.fun/*"]
+  }],
+  "content_scripts": [
+     {
+       "matches": ["https://*.tuxun.fun/*"],
+       "js": ["contentscript.js"]
+     }
+   ],
+    "permissions": [
+    "tabs"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
