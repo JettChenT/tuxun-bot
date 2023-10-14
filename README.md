@@ -4,6 +4,6 @@ This is a chrome extension for the game [tuxun.fun](https://tuxun.fun) that outp
 
 Note: This is for education purposes only. Do not use this in any formal competitions.
 
-After activating the extension, simply check the chrome console for coordinates.
+After activating the extension, click the extension icon to view the location.
 
 To install this extension in chrome, go to `chrome://extensions`, enable dev mode, click `load unpacked`, and select this folder. 
